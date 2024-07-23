@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# Movie App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Uma aplicação de frontend para gerenciamento de uma lista de filmes e watchlist. Desenvolvida com React, ela permite buscar, filtrar e adicionar filmes a uma lista de watchlist.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- Buscar filmes por título
+- Filtrar filmes por gênero e classificação
+- Adicionar/remover filmes da lista de watchlist
 
-### `npm start`
+## Requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Node.js (versão recomendada: 16.x ou superior)
+- npm (ou yarn) para gerenciamento de pacotes
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalação
 
-### `npm test`
+1. **Clone o Repositório**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   Clone o repositório para o seu ambiente local com o comando:
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/nicolasmatte2/moviedux.git
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   Substitua `https://github.com/nicolasmatte2/moviedux.git` pelo URL do seu repositório GitHub.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Navegue até o Diretório do Projeto**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   Entre no diretório do projeto com:
 
-### `npm run eject`
+   ```bash
+   cd moviedux
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Instale as Dependências**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   Instale as dependências do projeto com npm:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ou com yarn:
 
-## Learn More
+   ```bash
+   yarn install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. **Inicie o Servidor de Desenvolvimento**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   Inicie o servidor de desenvolvimento com npm:
 
-### Code Splitting
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ou com yarn:
 
-### Analyzing the Bundle Size
+   ```bash
+   yarn start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   Isso abrirá a aplicação em seu navegador padrão em `http://localhost:3000`.
 
-### Making a Progressive Web App
+## Estrutura do Projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- `src/`: Contém o código fonte da aplicação.
+- `components/`: Componentes React reutilizáveis.
+- `App.js`: Componente principal que define a estrutura da aplicação.
+- `MovieCard.js`: Componente para exibir informações de um filme individual.
+- `MoviesGrid.js`: Componente para exibir a grade de filmes com filtros e busca.
+- `Watchlist.js`: Componente para exibir a lista de filmes na watchlist.
 
-### Advanced Configuration
+## Contribuição
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Faça um fork do repositório.
+2. Crie uma branch para suas alterações:
 
-### Deployment
+   ```bash
+   git checkout -b minha-nova-feature
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+3. Faça commit das suas alterações:
 
-### `npm run build` fails to minify
+   ```bash
+   git add .
+   git commit -m "Adiciona nova funcionalidade"
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. Envie suas alterações para o repositório remoto:
+
+   ```bash
+   git push origin minha-nova-feature
+   ```
+
+5. Crie um pull request no GitHub para revisar e integrar suas alterações.
+
+## Licença
+
+Este projeto está licenciado sob a MIT License.
+
+## Contato
+
+Nome: Nicolas de Souza Matte  
+Email: nickmtt21@gmail.com  
+GitHub: [nicolasmatte2/moviedux](https://github.com/nicolasmatte2/moviedux)
